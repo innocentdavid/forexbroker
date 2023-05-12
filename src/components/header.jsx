@@ -1,9 +1,7 @@
 
 import React from 'react'
 import {useState} from 'react'
-
-// import { FcMenu} from 'react-icons/fa';
-// import { Link }from "react"
+import fast from '../images/forexbrokers.svg'
 import { FaChevronRight ,FaAlignJustify ,FaTimes } from "react-icons/fa";
 
 export default function Header () {
@@ -19,12 +17,10 @@ export default function Header () {
         <div className='relative'>
             <div className='flex md:gap-6 gap-3 justify-between  w-full bg-[#133d54] p-2 md:p-3'>
 
-                <div className='max-w-[500px] p-3 ml-5  '>
-                <h2 className='md:text-[20px] text-[] text-white'>ForexBroker<span classNamw='text-[8px] text-white'>.com</span> </h2>
+                <img src={fast} className='w-[50%] md:w-[20%] mx-3' alt='mmmee' ></img>
+                
 
-                </div>
-
-                <div className='md:hidden block w-full border '>
+                <div className='md:hidden block w-full '>
                             <div className=''>
                             <FaAlignJustify onClick={toggleMenu} className='text-white text-[30px] float-right m-2'/>
                         {isOpen && (
