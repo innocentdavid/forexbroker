@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+// import { FaBeer } from 'react-icons/fa';
 import './App.css';
+import Header from './components/header'
+import First from './components/first'
+import Card from './components/card'
+import Award from './components/award'
+import Fques from './components/F&G'
+import Showtable from './components/tabledisplay'
+import Method from './components/methods'
+import Team from './components/team'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    
+      <Header/>
+      <First/>
+      <Card/>
+      <Award/>
+      <Fques/>
+      <Showtable/>
+      <Method/>
+      <Team/>
+     
+
     </div>
   );
 }
