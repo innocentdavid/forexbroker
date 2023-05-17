@@ -1,7 +1,6 @@
 
 import React from 'react'
 import {useState} from 'react'
-import fast from '../images/forexbrokers.svg'
 import { FaChevronRight ,FaAlignJustify ,FaTimes } from "react-icons/fa";
 
 export default function Header () {
@@ -17,7 +16,7 @@ export default function Header () {
         <div className='relative'>
             <div className='flex md:gap-6 gap-3 justify-between  w-full bg-[#133d54] p-2 md:p-3'>
 
-                <img src={fast} className='w-[50%] md:w-[20%] mx-3' alt='mmmee' ></img>
+                <img src={'./images/forexbrokers.svg'} className='w-[50%] md:w-[20%] mx-3' alt='mmmee' ></img>
                 
 
                 <div className='md:hidden block w-full '>

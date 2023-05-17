@@ -16,7 +16,9 @@ function App() {
     <div>
     
       <Header/>
+      
       <First/>
+      
       <Card/>
       <Award/>
       <Fques/>
