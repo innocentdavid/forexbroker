@@ -1,14 +1,14 @@
 
 
 import React from 'react';
-import  Card1 from '../components/cardpie'
-import  Card2 from '../components/cardpies'
-import  Card3 from '../components/cardiess'
+import Card1 from '../components/cardpie'
+import Card2 from '../components/cardpies'
+import Card3 from '../components/cardiess'
 
 
 
 
-export default function Card (){
+export default function Card() {
 
     return (
 
@@ -16,11 +16,11 @@ export default function Card (){
 
             <div className='  max-w-[1200px] mx-auto'>
 
-                <Card1/>
+                <Card1 />
                 <Card2 />
                 <Card3 />
 
-               
+
             </div>
         </div>
     )
