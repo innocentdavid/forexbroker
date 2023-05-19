@@ -21,21 +21,21 @@ export default function Header () {
                 
 
                 <div className='md:hidden block w-full '>
-                            <div className=''>
-                            <FaAlignJustify onClick={toggleMenu} className='text-white text-[30px] float-right m-2'/>
+                    <div className=''>
+                        <FaAlignJustify onClick={toggleMenu} className='text-white text-[30px] float-right m-2' />
                         {isOpen && (
-                       <div className='absolute top-[48px] bg-white w-[100%] h-[100%] border '>
-                       <FaTimes onClick={toggleMenu} className='text-black text-[30px]  m-2'/>
-                        <ul classNam='bg-slate-500 border border-black w-[100%] h-[100%] border '>
-                                <li className='text-[14px p-4 border border-black'><a href='/'>Guides</a></li>
-                                <li className='text-[14px p-4 border border-black'><a href='/'>Reviews</a></li>
-                                <li className='text-[14px p-4 border border-black'><a href='/'>Compare</a></li>
-                                <li className='text-[14px p-4 border border-black'><a href='/'>Counties</a></li>
-                                <li className='text-[14px p-4 border border-black'><a href='/'>Resources</a></li>
-                            </ul>
-                       </div>
-                )}
-                </div>
+                            <div className='absolute top-[48px] bg-white w-[100%] h-[100%] border '>
+                                <FaTimes onClick={toggleMenu} className='text-black text-[30px]  m-2' />
+                                <ul classNam='bg-slate-500 border border-black w-[100%] h-[100%] border '>
+                                    <li className='text-[14px p-4 border border-black'><a href='/'>Guides</a></li>
+                                    <li className='text-[14px p-4 border border-black'><a href='/'>Reviews</a></li>
+                                    <li className='text-[14px p-4 border border-black'><a href='/'>Compare</a></li>
+                                    <li className='text-[14px p-4 border border-black'><a href='/'>Countries</a></li>
+                                    <li className='text-[14px p-4 border border-black'><a href='/'>Resources</a></li>
+                                </ul>
+                            </div>
+                        )}
+                    </div>
 
                 </div>
 
@@ -45,23 +45,23 @@ export default function Header () {
                             <li><a href='/'>Guides</a></li>
                             <li><a href='/'>Reviews</a></li>
                             <li><a href='/'>Compare</a></li>
-                            <li><a href='/'>Counties</a></li>
+                            <li><a href='/'>Countries</a></li>
                             <li><a href='/'>Resources</a></li>
                         </ul>
                     </div>
                 </div>
 
-               
-    
+
+
             </div>
-            <h2 className='md:mx-[150px] mx-2 md:text-[14px] text-[12px] md:p-3 p-2' >ForexBrokers.com is committed to the highest ethical standards and reviews services independently. <a href ='/' className='text-blue-500'>Learn How We Make Money</a> </h2>
+            <h2 className='md:mx-[150px] mx-2 md:text-[14px] text-[12px] md:p-3 p-2' >iliveForex.com is committed to making independent forex broker reviews, which are carried out to the highest standards.</h2>
 
             <div className='max-w-[500px] md:gap-1  md:mx-[160px] md:py-1 py-1 flex'>
                 <div className='flex flex-row '>
-                <a href='/' className='  text-blue-400 text-md p-2 md:text-[20px] font-bold '>Home  <FaChevronRight className='float-right flex  mt-1 md:mt-2 mx-2'/> </a>
+                    <a href='/' className='  text-blue-400 text-md p-2 md:text-[20px] font-bold '>Home  <FaChevronRight className='float-right flex  mt-1 md:mt-2 mx-2' /> </a>
                 </div>
                 <a href='/' className=' text-blue-400 text-md py-2 md:text-[20px] font-bold '>Forex Guides Directory  </a>
-               
+
             </div>
 
         </div>
