@@ -5,7 +5,8 @@ import React, { useState } from 'react';
 import Big from '../images/City Index Logo_2022.png'
 import star from '../images/5.svg'
 import disc from '../images/xtb.png'
-import IKR from '../images/etoro.png'
+import IKR from '../images/forex.com logo.jpg'
+// import IKR from '../images/etoro.png'
 
 
 
@@ -35,7 +36,7 @@ export default function Card3() {
             <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
 
                 <div className='flex  justify-between mt-4 mx-2 gap-3'>
-                    <img src={Big} className='md:w-[200px] w-[150px] p-2' alt='nextimg' />
+                    <img src={IKR} className='md:w-[200px] w-[150px] p-2' alt='nextimg' />
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
                         <h4 className='text-center'>5.0 overall</h4>
@@ -121,7 +122,7 @@ export default function Card3() {
             <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
 
                 <div className='flex justify-between mt-4 mx-2 gap-3'>
-                    <img src={disc} className='md:w-[200px] w-[150px] p-2' alt='nextimg' />
+                    <img src={`/images/broker_logos/oanda-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
                         <h4 className='text-center'>5.0 overall</h4>
@@ -215,7 +216,7 @@ export default function Card3() {
             <div className='border rounded-[30px]  shadow-lg md:w-[33%] w-full bg-white'>
 
                 <div className='flex justify-between mt-4 mx-2 gap-3'>
-                    <img src={IKR} className='md:w-[200px] w-[150px] p-2' alt='nextimg' />
+                    <img src={`/images/broker_logos/fbs.svg`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
                         <h4 className='text-center'>5.0 overall</h4>
