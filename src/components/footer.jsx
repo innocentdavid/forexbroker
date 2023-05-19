@@ -27,7 +27,7 @@ export default function Footer (){
                   <div className='flex md:flex-row flex-col justify-between w-full'>
 
                     <div className='p-4'>
-                            <img src={'./images/forexbrokers.svg'} className='md:w-[90%] w-[50%]' alt='mmmee' />
+                      <img src={'./logo.png'} className='h-[50px]' alt='mmmee' />
                     </div>
 
                     <div className='w-full'>
