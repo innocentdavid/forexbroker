@@ -22,7 +22,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px] w-full  gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={man} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'></img>
+                        <img src={man} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'/>
                         <div className='' >
                             <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Steven Hatzakis</a>
                             <p className='md:text-[20px] text-[15px] md:px-5 px-3 my-2'>Steven Hatzakis is the Global Director of Research for ForexBrokers.com. Steven previously served as an Editor for Finance Magnates, where he authored over 1,000 published articles about the online finance industry. A forex industry expert and an active fintech and crypto researcher, Steven advises blockchain companies at the board level and holds a Series III license in the U.S. as a Commodity Trading Advisor (CTA).</p>
@@ -31,7 +31,7 @@ export default function Team() {
 
                     <div className='md:hidden block'>
                         <div className='flex gap-1 '>
-                        <img src={man} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                        <img src={man} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
                         <div>
                             <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Steven Hatzakis</a>
                             <p className=' text-[15px]  ma-1'>Steven Hatzakis is the Global Director of Research for  </p>
@@ -46,7 +46,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={pics} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={pics} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'/>
                         <div className='' >
                             <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Blain Reinkensmeyer</a>
                             <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Blain Reinkensmeyer has 20 years of trading experience with over 2,500 trades placed during that time. He heads research for all U.S.-based brokerages on StockBrokers.com and is respected by executives as the leading expert covering the online broker industry. Blain’s insights have been featured in the New York Times, Wall Street Journal, Forbes, and the Chicago Tribune, among other media outlets.</p>
@@ -55,7 +55,7 @@ export default function Team() {
 
                     <div className='md:hidden '>
                         <div className='flex gap-1 '>
-                        <img src={pics} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                        <img src={pics} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
                         <div>
                             <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Blain Reinkensmeyer</a>
                             <p className=' text-[15px]  ma-1'>Blain Reinkensmeyer has 20 years of trading experience </p>
@@ -70,7 +70,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={John} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={John} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'/>
                         <div className='' >
                             <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>John Bringans</a>
                             <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>John Bringans is the Senior Editor of ForexBrokers.com. An experienced media professional, John has close to a decade of editorial experience with a background that includes key leadership roles at global newsroom outlets. He holds a Bachelor’s Degree in English Literature from San Francisco State University, and conducts research on forex and the financial services industry while assisting in the production of content.</p>
@@ -79,7 +79,7 @@ export default function Team() {
 
                     <div className='md:hidden '>
                         <div className='flex gap-1 '>
-                        <img src={John} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                        <img src={John} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
                         <div>
                             <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>John Bringans</a>
                             <p className=' text-[15px]  ma-1'> John Bringans is the Senior Editor of ForexBrokers.com.An </p>
@@ -94,7 +94,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={fast} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={fast} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'/>
                         <div className='' >
                             <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Joey Shadeck</a>
                             <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Joey Shadeck is the Content Strategist and Research Analyst for ForexBrokers.com. He holds dual degrees in Finance and Marketing from Oakland University, and has been an active trader and investor for close to ten years. An industry veteran, Joey obtains and verifies data, conducts research, and analyzes and validates our content.</p>
@@ -103,7 +103,7 @@ export default function Team() {
 
                     <div className='md:hidden '>
                         <div className='flex gap-1 '>
-                        <img src={fast} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                        <img src={fast} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
                         <div>
                             <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Joey Shadeck</a>
                             <p className=' text-[15px]  ma-1'>Joey Shadeck is the Content Strategist and Research </p>

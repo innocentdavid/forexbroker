@@ -27,7 +27,7 @@ export default function Footer (){
                   <div className='flex md:flex-row flex-col justify-between w-full'>
 
                     <div className='p-4'>
-                            <img src={'./images/forexbrokers.svg'} className='md:w-[90%] w-[50%]' alt='mmmee' ></img>
+                            <img src={'./images/forexbrokers.svg'} className='md:w-[90%] w-[50%]' alt='mmmee' />
                     </div>
 
                     <div className='w-full'>
@@ -43,13 +43,13 @@ export default function Footer (){
                   </div>
                   
                   <div className='flex gap-3 md:gap-6 my-3 px-3 py-8 border-t border-slate-500 w-[80%] md:max-w-[25%]'>
-                    <img src={linkedin}  className='w-[30px]' alt='insta'></img>
-                    <img src={twitter} className='w-[30px]'  alt='insta'></img>
-                    <img src={facebook} className='w-[30px]'  alt='facebook'></img>
-                    <img src={insta}  className='w-[30px]' alt='insta'></img>
-                    <img src={reddit}  className='w-[30px]' alt='insta'></img>
-                    <img src={youtube} className='w-[30px]'  alt='insta'></img>
-                    <img src={tiktok} className='w-[30px]'  alt='insta'></img>
+                    <img src={linkedin}  className='w-[30px]' alt='insta'/>
+                    <img src={twitter} className='w-[30px]'  alt='insta'/>
+                    <img src={facebook} className='w-[30px]'  alt='facebook'/>
+                    <img src={insta}  className='w-[30px]' alt='insta'/>
+                    <img src={reddit}  className='w-[30px]' alt='insta'/>
+                    <img src={youtube} className='w-[30px]'  alt='insta'/>
+                    <img src={tiktok} className='w-[30px]'  alt='insta'/>
 
                   </div>
 
@@ -60,8 +60,8 @@ export default function Footer (){
                   <p className='md:text-[15px]  text-white text-[12px] md:px-5 md:my-4 my-2'>Disclaimer: It is our organization's primary mission to provide reviews, commentary, and analysis that are unbiased and objective. While ForexBrokers.com has some data verified by industry participants, it can vary from time to time. Operating as an online business, this site may be compensated through third party advertisers. Our receipt of such compensation shall not be construed as an endorsement or recommendation by ForexBrokers.com, nor shall it bias our reviews, analysis, and opinions. Please see our General Disclaimers for more information.</p>
 
                   <div className='flex gap-6 px-3 md:my-[50px] my-[30px]'>
-                        <img src={logo1} className='md:w-[60px] w-[50px]' alt='meeww' ></img>
-                        <img src={logo2} className='md:w-[60px] w-[50px]' alt='meeww' ></img>
+                        <img src={logo1} className='md:w-[60px] w-[50px]' alt='meeww' />
+                        <img src={logo2} className='md:w-[60px] w-[50px]' alt='meeww' />
                   </div>
 
                   <p className='md:text-[15px] text-white text-[12px] md:px-5  md:my-4 my-2'>© 2023 Reink Media Group LLC. All Rights Reserved.</p>

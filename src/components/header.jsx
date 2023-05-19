@@ -16,7 +16,7 @@ export default function Header () {
         <div className='relative'>
             <div className='flex md:gap-6 gap-3 justify-between  w-full bg-[#133d54] p-2 md:p-3'>
 
-                <img src={'./images/forexbrokers.svg'} className='w-[50%] md:w-[20%] mx-3' alt='mmmee' ></img>
+                <img src={'./images/forexbrokers.svg'} className='w-[50%] md:w-[20%] mx-3' alt='mmmee' />
                 
 
                 <div className='md:hidden block w-full '>

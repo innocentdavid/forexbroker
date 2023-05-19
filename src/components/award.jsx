@@ -18,7 +18,8 @@ export default function Award() {
 
                 <div>
                     <h3 className='text-[30px] font-semi-bold md:mt-6 mt-2 px-4'>Winner: FXTM</h3>
-                    <img src={disc} alt='IG-group' className='p-3 w-[180px] md:my-4 my-2' ></img>
+                    {/* <img src={disc} alt='IG-group' className='p-3 w-[180px] md:my-4 my-2' /> */}
+                    <img src={`/images/broker_logos/fxtm-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     <p className='md:text-[20px] text-[18px] md:px-4 px-1 md:my-4 my-2'>Regulated and trusted across the globe, FXTM offers traders zero spreads with their Advantage accounts, commission-free stock trading across a wealth of baskets and lightning-fast execution. Free indsutry leading education and expert analysis. This fantastic all-round experience makes FXTM the best overall broker in 2023.</p>
                     <ul className='list-disc text-[20px] md:mx-[60px] mx-[10px] md:px-4 px-2 my-4'>
                         <li><b>Trust:</b> Founded in 2011, FXTM is regulated by CySEC, FCA, FSCA and IFSC making it a safe broker (low-risk) for forex and CFDs trading. All countries considered, we ranked FXTM as the most trusted forex and CFDs broker for our 2023 Annual Awards.</li>
@@ -31,7 +32,8 @@ export default function Award() {
 
                 <div className='mt-4'>
                     <h3 className='md:text-[30px] text-[25px] font-semi-bold md:mt-6 mt-2 px-4'>Runner-Up: XM</h3>
-                    <img src={bank} alt='IG-group' className='p-3 w-[180px] md:my-4 my-2'></img>
+                    {/* <img src={bank} alt='IG-group' className='p-3 w-[180px] md:my-4 my-2'/> */}
+                    <img src={`/images/broker_logos/xm-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     <p className='md:text-[20px] text-[18px] md:px-4 px-1 md:my-4 my-2'>XM offers tight spreads, fair pricing, $5 minimum deposit, MT4/ MT5 and webtrader trading platforms, webinars and tutorials.</p>
                     <ul className='list-disc text-[20px] md:mx-[60px] mx-[10px] md:px-4 px-2 my-4'>
                         <li><b>Trust:</b>  Founded in 2009, XM is licensed by ASIC, CySEC, IFSC, making it a safe broker (low-risk) for trading forex and CFDs.</li>
@@ -44,7 +46,8 @@ export default function Award() {
 
                 <div className='mt-[70px]'>
                     <h3 className='md:text-[30px] text-[25px] font-semi-bold md:mt-6 mt-2 px-4'>Podium finisher: OctaFX</h3>
-                    <img src={IBR} alt='IG-group' className='p-3 w-[180px] md:my-4 my-2'></img>
+                    {/* <img src={IBR} alt='IG-group' className='p-3 w-[180px] md:my-4 my-2'/> */}
+                    <img src={`/images/broker_logos/octafx-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     <p className='md:text-[20px] text-[18px] md:px-4 px-1 md:my-4 my-2'>OctaFX is a trusted broker with an extensive offering of tradeable global markets. It delivers competitive fees and research and education.</p>
                     <ul className='list-disc text-[20px] md:mx-[60px] mx-[10px] md:px-4 px-2 my-4'>
                         <li><b>Trust:</b>  Founded in 2011, OctaFX is regulated by CySEC.</li>

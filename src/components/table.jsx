@@ -42,15 +42,15 @@ export default function Showtable (){
         <div className='flex gap-[30px]  mt-[100px] flex-col border-r border-slate-800 '>
 
           
-            <img src={ig} alt='mee'  className='border-t border-slate-700' ></img>
-            <img src={zazo} alt='mee'   ></img>
-            <img src={brokers} alt='mee'  ></img>
-            <img src={cmc} alt='mee'   ></img>
-            <img src={tda} alt='mee'   ></img>
-            <img src={forex} alt='mee'     ></img>
-            <img src={city} alt='mee'   ></img>
-            <img src={xtb} alt='mee'    ></img>
-            <img src={extror} alt='mee'     ></img>
+            <img src={ig} alt='mee'  className='border-t border-slate-700' />
+            <img src={zazo} alt='mee'   />
+            <img src={brokers} alt='mee'  />
+            <img src={cmc} alt='mee'   />
+            <img src={tda} alt='mee'   />
+            <img src={forex} alt='mee'     />
+            <img src={city} alt='mee'   />
+            <img src={xtb} alt='mee'    />
+            <img src={extror} alt='mee'     />
 
         </div>
 
@@ -78,43 +78,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -130,43 +130,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -182,43 +182,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -235,43 +235,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -288,43 +288,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -341,43 +341,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -395,43 +395,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -449,43 +449,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -502,43 +502,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
@@ -556,43 +556,43 @@ export default function Showtable (){
 
                         <td className='mx-9 text-[18px] px-1'>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-1  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-5  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={four} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-2  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className=' mx-3  flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
                         <td className='mx-9 text-[18px] px-1 mt-9 '>
                             <a data-dd="1" href="/">
-                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '></img></a>
+                            <img  alt="IG logo" loading="lazy"  src={five} title="IG logo" className='mx-4 flex justify-center w-[100px] h-[90px] '/></a>
                                                                         
                         </td>
 
