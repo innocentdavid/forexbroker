@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import fast from '../images/forexbrokers.svg'
+// import fast from '../images/forexbrokers.svg'
 import insta from '../images/instagram-.png'
 import facebook from '../images/facebook-.png'
 import linkedin from '../images/linkedin-.png'

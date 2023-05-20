@@ -2,10 +2,10 @@
 
 import React from 'react'
 import TableWithScroll from '../components/table'
-import Big from '../images/cmc-markets.png'
-import star from '../images/5.svg'
-import disc from '../images/td-ameritrade.png'
-import IKR from '../images/forex.com logo.jpg'
+// import Big from '../images/cmc-markets.png'
+// import star from '../images/5.svg'
+// import disc from '../images/td-ameritrade.png'
+// import IKR from '../images/forex.com logo.jpg'
 
 
 
