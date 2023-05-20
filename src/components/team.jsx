@@ -1,6 +1,6 @@
 
 
-import  React from 'react'
+import React from 'react'
 import man from '../images/steven headshot.jpg'
 import pics from '../images/blain-cropped-170x.jpg'
 import John from '../images/John-headshot.png'
@@ -9,7 +9,7 @@ import fast from '../images/joey_final.png'
 
 
 export default function Team() {
-    return(
+    return (
         <div className='w-full md:p-5 mt-3'>
 
             <div className='md:max-w-[1000px] w-full md:mx-auto mt-3'>
@@ -22,23 +22,23 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px] w-full  gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={man} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'/>
+                        <img src={man} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
-                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Steven Hatzakis</a>
-                            <p className='md:text-[20px] text-[15px] md:px-5 px-3 my-2'>Steven Hatzakis is the Global Director of Research for ForexBrokers.com. Steven previously served as an Editor for Finance Magnates, where he authored over 1,000 published articles about the online finance industry. A forex industry expert and an active fintech and crypto researcher, Steven advises blockchain companies at the board level and holds a Series III license in the U.S. as a Commodity Trading Advisor (CTA).</p>
+                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Ryan Cole</a>
+                            <p className='md:text-[20px] text-[15px] md:px-5 px-3 my-2'>Ryan Cole is the Global Director of Research for iLiveforex.com. Norman has authored thousands of articles about the finance industry. A forex industry expert and an active fintech and crypto researcher.</p>
                         </div>
                     </div>
 
                     <div className='md:hidden block'>
                         <div className='flex gap-1 '>
-                        <img src={man} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
-                        <div>
-                            <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Steven Hatzakis</a>
-                            <p className=' text-[15px]  ma-1'>Steven Hatzakis is the Global Director of Research for  </p>
-                        </div>
+                            <img src={man} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                            <div>
+                                <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Norman West</a>
+                                <p className=' text-[15px]  ma-1'>Norman West is is the Global Director of Research for iLiveforex.com  </p>
+                            </div>
                         </div>
                         <div className='' >
-                            <p className='mx-2 text-[15px] md:px-5  '>ForexBrokers.com. Steven previously served as an Editor for Finance Magnates, where he authored over 1,000 published articles about the online finance industry. A forex industry expert and an active fintech and crypto researcher, Steven advises blockchain companies at the board level and holds a Series III license in the U.S. as a Commodity Trading Advisor (CTA).</p>
+                            <p className='mx-2 text-[15px] md:px-5  '>iLiveforex.com. Norman has authored over 1,000 published articles about the online finance industry. A forex industry expert and an active fintech and crypto researcher.</p>
                         </div>
                     </div>
 
@@ -46,23 +46,23 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={pics} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'/>
+                        <img src={pics} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
-                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Blain Reinkensmeyer</a>
-                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Blain Reinkensmeyer has 20 years of trading experience with over 2,500 trades placed during that time. He heads research for all U.S.-based brokerages on StockBrokers.com and is respected by executives as the leading expert covering the online broker industry. Blain’s insights have been featured in the New York Times, Wall Street Journal, Forbes, and the Chicago Tribune, among other media outlets.</p>
+                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Peter Crawford</a>
+                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Peter Crawford has 20 years of trading experience with over 2,500 trades placed during that time.</p>
                         </div>
                     </div>
 
                     <div className='md:hidden '>
                         <div className='flex gap-1 '>
-                        <img src={pics} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
-                        <div>
-                            <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Blain Reinkensmeyer</a>
-                            <p className=' text-[15px]  ma-1'>Blain Reinkensmeyer has 20 years of trading experience </p>
-                        </div>
+                            <img src={pics} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                            <div>
+                                <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Teo Romero</a>
+                                <p className=' text-[15px]  ma-1'>Teo Romero has 20 years of trading experience </p>
+                            </div>
                         </div>
                         <div className='' >
-                            <p className='mx-2 text-[15px] md:px-5  '> Blain Reinkensmeyer has 20 years of trading experience with over 2,500 trades placed during that time. He heads research for all U.S.-based brokerages on StockBrokers.com and is respected by executives as the leading expert covering the online broker industry. Blain’s insights have been featured in the New York Times, Wall Street Journal, Forbes, and the Chicago Tribune, among other media outlets.</p>
+                            <p className='mx-2 text-[15px] md:px-5  '> Teo Romero has 20 years of trading experience with over 2,500 trades placed during that time.</p>
                         </div>
                     </div>
 
@@ -70,23 +70,23 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={John} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'/>
+                        <img src={John} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
-                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>John Bringans</a>
-                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>John Bringans is the Senior Editor of ForexBrokers.com. An experienced media professional, John has close to a decade of editorial experience with a background that includes key leadership roles at global newsroom outlets. He holds a Bachelor’s Degree in English Literature from San Francisco State University, and conducts research on forex and the financial services industry while assisting in the production of content.</p>
+                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Paul Adam</a>
+                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Paul Adam is the Senior Editor of iLiveforex.com. An experienced media professional, Paul has close to a decade of editorial experience with a background that includes key leadership roles at global finance outlets.</p>
                         </div>
                     </div>
 
                     <div className='md:hidden '>
                         <div className='flex gap-1 '>
-                        <img src={John} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
-                        <div>
-                            <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>John Bringans</a>
-                            <p className=' text-[15px]  ma-1'> John Bringans is the Senior Editor of ForexBrokers.com.An </p>
-                        </div>
+                            <img src={John} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                            <div>
+                                <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Joey Smith</a>
+                                <p className=' text-[15px]  ma-1'> Joey Smith is the Senior Editor of iLiveforex.com </p>
+                            </div>
                         </div>
                         <div className='' >
-                            <p className='mx-2 text-[15px] md:px-5  '> experienced media professional, John has close to a decade of editorial experience with a background that includes key leadership roles at global newsroom outlets. He holds a Bachelor’s Degree in English Literature from San Francisco State University, and conducts research on forex and the financial services industry while assisting in the production of content.</p>
+                            <p className='mx-2 text-[15px] md:px-5  '> experienced media professional, Joey has close to a decade of editorial experience with a background that includes key leadership roles at global finance outlets.</p>
                         </div>
                     </div>
 
@@ -94,23 +94,23 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={fast} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'/>
+                        <img src={fast} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
-                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Joey Shadeck</a>
-                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Joey Shadeck is the Content Strategist and Research Analyst for ForexBrokers.com. He holds dual degrees in Finance and Marketing from Oakland University, and has been an active trader and investor for close to ten years. An industry veteran, Joey obtains and verifies data, conducts research, and analyzes and validates our content.</p>
+                            <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Alex Hope</a>
+                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Alex Hope is the Content Strategist and Research Analyst for iLiveforex.com. An industry expert, Alex obtains and verifies data, conducts research, and analyzes and validates our content.</p>
                         </div>
                     </div>
 
                     <div className='md:hidden '>
                         <div className='flex gap-1 '>
-                        <img src={fast} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'/>
-                        <div>
-                            <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Joey Shadeck</a>
-                            <p className=' text-[15px]  ma-1'>Joey Shadeck is the Content Strategist and Research </p>
-                        </div>
+                            <img src={fast} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
+                            <div>
+                                <a href='/' className='text-blue-500  text-[18px]  px-1 my-2'>Alexa Brown</a>
+                                <p className=' text-[15px]  ma-1'>Alexa Brown is the Content Strategist and Research </p>
+                            </div>
                         </div>
                         <div className='' >
-                            <p className='mx-2 text-[15px] md:px-5  '>Analyst for ForexBrokers.com. He holds dual degrees in Finance and Marketing from Oakland University, and has been an active trader and investor for close to ten years. An industry veteran, Joey obtains and verifies data, conducts research, and analyzes and validates our content.</p>
+                            <p className='mx-2 text-[15px] md:px-5  '>Analyst for iLiveforex.com. Alexa obtains and verifies data, conducts research, and analyzes and validates our content.</p>
                         </div>
                     </div>
 
