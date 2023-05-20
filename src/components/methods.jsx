@@ -41,7 +41,7 @@ export default function Method() {
 
             <p className='md:text-[20px] text-[18px] md:px-5 px-3 md:my-4 my-2'>Ultimately, our rigorous data validation process yields an error rate of less than .1% each year, providing site visitors with quality data they can trust. For a full explanation and accounting of our research and testing process, please <a href='/' className='text-blue-800' >click here to learn more about how we test.</a></p>
 
-            <div className='md:max-w-[1000px] border w-full relative md:mx-auto mt-3'>
+            {/* <div className='md:max-w-[1000px] border w-full relative md:mx-auto mt-3'>
                 <ReactPlayer
 
                     url="https://youtu.be/IctdzK7OyXE'"
@@ -52,7 +52,7 @@ export default function Method() {
 
                 />
 
-            </div>
+            </div> */}
 
         </div>
     )
