@@ -88,8 +88,6 @@ export default function Card3() {
                                     <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
                                     <span className='text-[15px]'>	FCA, IIROC, ASIC, CFTC, CySEC, JFSA, MAS, CIMA</span>
                                 </div>
-                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
                             </div>
                         }
@@ -99,8 +97,7 @@ export default function Card3() {
                             <div>
 
                             <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>Forex.com was founded in 1999, the company onboards customers in over 180 countries. <a href='/' className='text-blue-500'>Read full review</a></p>
-                            <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                            <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                            
 
                             </div>
                         }
@@ -124,9 +121,6 @@ export default function Card3() {
                                         <li>No multi currency accounts</li>
 
                                     </ul>
-
-                                    <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                                 </div>
 
                             </div>
@@ -196,9 +190,6 @@ export default function Card3() {
                                 <button className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
                                 <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
-                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
-
                             </div>
                         }
                         {nativeTab === 'review' && <div className='py-2 px-5 mb-[200px] text-[12px] md:text-[18px] h-[200px]'>
@@ -224,8 +215,6 @@ export default function Card3() {
                                         <li>No social trading tools</li>
                                     </ul>
                                 </div>
-                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
                             </div>
                         }
@@ -291,10 +280,6 @@ export default function Card3() {
                                     <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
                                     <span className='text-[15px]'>CySEC, IFSC</span>
                                 </div>
-
-                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
-
                             </div>
                         }
 
@@ -317,9 +302,6 @@ export default function Card3() {
                                         <li>No investor protection for non-EU clients</li>
 
                                     </ul>
-                                    
-                                    <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                                 </div>
 
                             </div>

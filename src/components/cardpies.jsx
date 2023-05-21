@@ -85,15 +85,15 @@ export default function Card2() {
                                 </div>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Regulation)</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
                                     <span className='text-[15px]'>	CySEC, FCA, SFSA</span>
                                 </div>
-                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                
 
                             </div>
                         }
                         {activesTab === 'review' && <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>Exness was established back in 2008, is a leading Forex and CFD broker. Currently licensed by three regulatory authorities.  <a href='/' className='text-blue-500'>Read full review</a></p>}
+
                         {activesTab === 'overlook' &&
 
                             <div className='mb-[100px] my-4 mx-6  h-[200px]'>
@@ -110,8 +110,6 @@ export default function Card2() {
                                     <ul className='list-disc text-[14px] mx-[20px] py-2' >
                                         <li>Multi-currency accounts missing</li>
                                     </ul>
-                                    <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                                 </div>
 
                             </div>
@@ -177,8 +175,6 @@ export default function Card2() {
                                     <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
                                     <span className='text-[15px]'>CySec, FCA, DFSA, FSCA</span>
                                 </div>
-                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
                             </div>
                         }
@@ -186,9 +182,6 @@ export default function Card2() {
 
                         <div className='p-4 mb-[150px] text-[16px] md:text-[18px] h-[200px]'>
                             <p> Minimum Deposit	$100 Trust Score 99 HF Markets is a multi-asset Forex broker that offers Forex and Commodities trading previously known as HotForex. <a href='/' className='text-blue-500'>Read full review</a></p>
-
-                            <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                            <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
                         </div>}
 
@@ -209,9 +202,6 @@ export default function Card2() {
                                         <li>International offering done offshore</li>
                                     </ul>
                                 </div>
-
-                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
 
                             </div>
@@ -282,6 +272,7 @@ export default function Card2() {
                             </div>
                         }
                         {nativedTab === 'review' && <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'> FXCM  provides a wide range of financial services for traders almost all over the world. The company was founded in 1999.  <a href='/' className='text-blue-500'>Read full review</a></p>}
+                        
                         {nativedTab === 'overlook' &&
 
                             <div className='mb-[100px] my-4 mx-6  h-[200px]'>
