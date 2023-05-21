@@ -1,10 +1,10 @@
 
 
 import React from 'react'
-import man from '../images/steven headshot.jpg'
-import pics from '../images/blain-cropped-170x.jpg'
-import John from '../images/John-headshot.png'
-import fast from '../images/joey_final.png'
+import man from '../images/man1.JPG'
+import pics from '../images/man2.JPG'
+import John from '../images/man3.JPG'
+import fast from '../images/lady.JPG'
 
 
 

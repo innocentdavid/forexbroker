@@ -86,9 +86,21 @@ export default function Card1() {
                                     <span className='text-[15px]'>CySEC, FCA, FSCA, IFSC</span>
                                 </div>
 
+                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+
                             </div>
                         }
-                        {activesTab === 'review' && <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>FXTM offers is regulated and trusted across the globe, zero spreads with their Advantage accounts, commission-free stock trading across a wealth of baskets and lightning-fast execution. Free indsutry leading education and expert analysis. <a href='/' className='text-blue-500'>Read full review</a></p>}
+                        {activesTab === 'review' && 
+
+                        <div>
+                        <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>FXTM offers is regulated and trusted across the globe, zero spreads with their Advantage accounts, commission-free stock trading across a wealth of baskets and lightning-fast execution. Free indsutry leading education and expert analysis. <a href='/' className='text-blue-500'>Read full review</a></p>
+                        <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                        <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                        </div>
+
+                        }
+
                         {activesTab === 'overlook' &&
 
                             <div className='mb-[100px] my-4 mx-6  h-[200px]'>
@@ -107,6 +119,11 @@ export default function Card1() {
                                         <li>Average CFD fees</li>
 
                                     </ul>
+
+                                    <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+
+
                                 </div>
 
                             </div>
@@ -177,12 +194,15 @@ export default function Card1() {
 
                             </div>
                         }
-                        {nativeTab === 'review' && <div className='p-4 mb-[150px] text-[16px] md:text-[18px] h-[200px]'>
+                        {nativeTab === 'review' && 
+
+                        <div className='p-4 mb-[150px] text-[16px] md:text-[18px] h-[200px]'>
                             <p>XM offers tight spreads, fair pricing, $5 minimum deposit, MT4/ MT5 and webtrader trading platforms, webinars and tutorials. <a href='/' className='text-blue-500'>Read full review</a></p>
                             <button className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
                             <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>Deposit bonus (74.89% of retail CFD accounts lose money)</p>
 
                         </div>}
+
                         {nativeTab === 'overlook' &&
 
                             <div className='mb-[150px] my-4 mx-6  h-[200px]'>
@@ -268,6 +288,9 @@ export default function Card1() {
                                     <span className='text-[15px]'>CySEC, FSCA</span>
                                 </div>
 
+                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+
                             </div>
                         }
                         {nativedTab === 'review' && <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'> Minimum Deposit $25. OctaFX is a trusted broker with an extensive offering of tradeable global markets. It delivers competitive fees and research and education. <a href='/' className='text-blue-500'>Read full review</a></p>}
@@ -288,6 +311,9 @@ export default function Card1() {
                                         <li>Not available to US customers</li>
 
                                     </ul>
+
+                                    <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                                 </div>
 
                             </div>

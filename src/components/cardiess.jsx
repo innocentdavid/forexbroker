@@ -88,10 +88,24 @@ export default function Card3() {
                                     <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
                                     <span className='text-[15px]'>	FCA, IIROC, ASIC, CFTC, CySEC, JFSA, MAS, CIMA</span>
                                 </div>
+                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
                             </div>
                         }
-                        {activesTab === 'review' && <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>Forex.com was founded in 1999, the company onboards customers in over 180 countries. <a href='/' className='text-blue-500'>Read full review</a></p>}
+
+                        {activesTab === 'review' && 
+
+                            <div>
+
+                            <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>Forex.com was founded in 1999, the company onboards customers in over 180 countries. <a href='/' className='text-blue-500'>Read full review</a></p>
+                            <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                            <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+
+                            </div>
+                        }
+
+
                         {activesTab === 'overlook' &&
 
                             <div className='mb-[100px] my-4 mx-6  h-[200px]'>
@@ -110,6 +124,9 @@ export default function Card3() {
                                         <li>No multi currency accounts</li>
 
                                     </ul>
+
+                                    <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                                 </div>
 
                             </div>
@@ -157,6 +174,7 @@ export default function Card3() {
                     </div>
 
                     <div className="tab-content">
+
                         {nativeTab === 'summary' &&
                             <div className='px-4 py-2 mb-[150px]  text-[18px] h-[200px]'>
                                 <h3 className='mx-5 text-[15px]'>Trusted brand, strong reputation</h3>
@@ -177,6 +195,9 @@ export default function Card3() {
                                 </div>
                                 <button className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
                                 <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+
+                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
                             </div>
                         }
@@ -251,6 +272,7 @@ export default function Card3() {
                     </div>
 
                     <div className="tab-content">
+
                         {nativedTab === 'summary' &&
                             <div className='px-4 py-2 mb-[100px]  text-[18px] h-[200px]'>
                                 <h3 className='mx-5 text-[15px]'>Best for fast account opening</h3>
@@ -270,8 +292,12 @@ export default function Card3() {
                                     <span className='text-[15px]'>CySEC, IFSC</span>
                                 </div>
 
+                                <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+
                             </div>
                         }
+
                         {nativedTab === 'review' && <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'> The brand FBS has established itself in global markets and conditions with inclusive education giving traders of all levels around the world access to the markets. <a href='/' className='text-blue-500'>Read full review</a></p>}
                         {nativedTab === 'overlook' &&
 
@@ -291,6 +317,9 @@ export default function Card3() {
                                         <li>No investor protection for non-EU clients</li>
 
                                     </ul>
+                                    
+                                    <button className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </button>
+                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                                 </div>
 
                             </div>

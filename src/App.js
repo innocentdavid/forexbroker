@@ -16,9 +16,7 @@ function App() {
     <div>
     
       <Header/>
-      
       <First/>
-      
       <Card/>
       <Award/>
       <Fques/>
@@ -26,8 +24,6 @@ function App() {
       <Method/>
       <Team/>
       <Footer/>
-     
-
     </div>
   );
 }
