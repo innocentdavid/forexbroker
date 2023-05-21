@@ -4,7 +4,7 @@ import React from 'react'
 import man from '../images/man1.JPG'
 import pics from '../images/man2.JPG'
 import John from '../images/man3.JPG'
-import fast from '../images/lady.JPG'
+import fast from '../images/lady1.JPG'
 
 
 
