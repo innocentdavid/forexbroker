@@ -14,24 +14,24 @@ export default function Header () {
     return (
 
         <div className='relative'>
-            <div className='flex md:gap-6 gap-3 justify-between  w-full bg-[#133d54] p-2 md:p-3'>
+            <div className='flex md:gap-6 gap-3  relative justify-between  w-full bg-[#133d54] p-2 md:p-3'>
 
                 {/* <img src={'./images/forexbrokers.svg.........'} className='w-[50%] md:w-[20%] mx-3' alt='mmmee' /> */}
                 <img src={'./logo.png'} className='w-[50%] md:w-[20%] mx-3' alt='mmmee' />
                 
 
-                <div className='md:hidden block w-full '>
-                    <div className=''>
+                <div className='md:hidden overflow-hidden  w-[70%] '>
+                    <div className='w-full overflow-hidden  '>
                         <FaAlignJustify onClick={toggleMenu} className='text-white text-[30px] float-right m-2' />
                         {isOpen && (
-                            <div className='absolute top-[48px] bg-white w-[100%] h-[100%] border '>
-                                <FaTimes onClick={toggleMenu} className='text-black text-[30px]  m-2' />
-                                <ul classNam='bg-slate-500 border border-black w-[100%] h-[100%] border '>
-                                    <li className='text-[14px p-4 border border-black'><a href='/'>Guides</a></li>
-                                    <li className='text-[14px p-4 border border-black'><a href='/'>Reviews</a></li>
-                                    <li className='text-[14px p-4 border border-black'><a href='/'>Compare</a></li>
-                                    <li className='text-[14px p-4 border border-black'><a href='/'>Countries</a></li>
-                                    <li className='text-[14px p-4 border border-black'><a href='/'>Resources</a></li>
+                            <div className='absolute top-0 left-0 bg-white w-[100%] h-[100vh] '>
+                                <FaTimes onClick={toggleMenu} className='text-black absolute right-0  text-[30px]  m-2' />
+                                <ul classNam='bg-slate-500 border border-black mt-[200px] py-7 w-[100%] h-[100%] border '>
+                                    <li className='text-[16px] mt-[60px] p-4 '><a href='/'>Guides</a></li>
+                                    <li className='text-[16px] p-4 '><a href='/'>Reviews</a></li>
+                                    <li className='text-[16px] p-4 '><a href='/'>Compare</a></li>
+                                    <li className='text-[16px] p-4 '><a href='/'>Countries</a></li>
+                                    <li className='text-[16px] p-4 '><a href='/'>Resources</a></li>
                                 </ul>
                             </div>
                         )}

@@ -86,24 +86,30 @@ export default function Card1() {
                                     <span className='text-[15px]'>CySEC, FCA, FSCA, IFSC</span>
                                 </div>
 
-                                <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                <div className='w-full flex-col py-7 flex align-center justify-center'>
+                                    <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] max-w-[295px]  mx-8  px-[65px] py-3 mx-auto mt-[20px] flex justify-center rounded-lg bg-gray-300 '>Visit Site </a>
+                                    <p className='max-w-[300px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[11px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                </div>
 
                             </div>
                         }
                         {activesTab === 'review' && 
 
                         <div>
-                        <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>FXTM offers is regulated and trusted across the globe, zero spreads with their Advantage accounts, commission-free stock trading across a wealth of baskets and lightning-fast execution. Free indsutry leading education and expert analysis. <a href='/' className='text-blue-500'>Read full review</a></p>
-                        <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
-                        <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                            <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>FXTM offers is regulated and trusted across the globe, zero spreads with their Advantage accounts, commission-free stock trading across a wealth of baskets and lightning-fast execution. Free indsutry leading education and expert analysis. <a href='/' className='text-blue-500'>Read full review</a></p>
+
+                            <div className='w-full flex-col py-7 flex align-center justify-center'>
+                                <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] max-w-[295px]  mx-8  px-[65px] py-3 mx-auto mt-[20px] flex justify-center rounded-lg bg-gray-300 '>Visit Site </a>
+                                <p className='max-w-[300px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[11px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                            </div>
+
                         </div>
 
                         }
 
                         {activesTab === 'overlook' &&
 
-                            <div className='mb-[100px] my-4 mx-6  h-[200px]'>
+                            <div className='mb-[100px] my-4 mx-6  h-[250px]'>
 
                                 <div>
                                     <h3 className='text-[15px] md:text-[20px] '>Pros</h3>
@@ -120,8 +126,11 @@ export default function Card1() {
 
                                     </ul>
 
-                                    <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
-                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                    <div className='w-full flex-col md:py-4 py-1 flex align-center justify-center'>
+                                        <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] max-w-[295px]  mx-8  px-[65px] py-3 mx-auto mt-[20px] flex justify-center rounded-lg bg-gray-300 '>Visit Site </a>
+                                        <p className='max-w-[300px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[11px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                    </div>
+                               
 
 
                                 </div>
@@ -189,8 +198,11 @@ export default function Card1() {
                                     <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
                                     <span className='text-[15px]'>	ASIC, CySEC, IFSC</span>
                                 </div>
-                                <a href='https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1' className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
-                                <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>Deposit bonus (74.89% of retail CFD accounts lose money)</p>
+
+                                <div className='w-full flex-col py-7 flex align-center justify-center'>
+                                <a href='https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1' className='text-[20px] max-w-[295px]  mx-8  px-[65px] py-3 mx-auto mt-[20px] flex justify-center rounded-lg bg-gray-300 '>Visit Site </a>
+                                <p className='max-w-[300px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[11px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                            </div>
 
                             </div>
                         }
@@ -198,14 +210,18 @@ export default function Card1() {
 
                         <div className='p-4 mb-[150px] text-[16px] md:text-[18px] h-[200px]'>
                             <p>XM offers tight spreads, fair pricing, $5 minimum deposit, MT4/ MT5 and webtrader trading platforms, webinars and tutorials. <a href='/' className='text-blue-500'>Read full review</a></p>
-                            <a href='https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1' className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
-                            <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>Deposit bonus (74.89% of retail CFD accounts lose money)</p>
+
+                            <div className='w-full flex-col py-7 flex align-center justify-center'>
+                                <a href='https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1' className='text-[20px] max-w-[295px]  mx-8  px-[65px] py-3 mx-auto mt-[20px] flex justify-center rounded-lg bg-gray-300 '>Visit Site </a>
+                                <p className='max-w-[300px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[11px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                            </div>
+                            
 
                         </div>}
 
                         {nativeTab === 'overlook' &&
 
-                            <div className='mb-[150px] my-4 mx-6  h-[200px]'>
+                            <div className='mb-[150px] my-4 mx-6  h-[250px]'>
 
                                 <div>
                                     <h3 className='text-[15px] md:text-[20px] '>Pros</h3>
@@ -221,8 +237,11 @@ export default function Card1() {
                                         <li>No investor protection for non-EU clients</li>
                                     </ul>
                                 </div>
-                                <a href='https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>Deposit bonus (74.89% of retail CFD accounts lose money)</p>
+
+                                <div className='w-full flex-col md:py-4 py-0 flex align-center justify-center'>
+                                    <a href='https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1' className='text-[20px] max-w-[295px]  mx-8  px-[65px] py-3 mx-auto mt-[7px] flex justify-center rounded-lg bg-gray-300 '>Visit Site </a>
+                                    <p className='max-w-[300px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[11px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                </div>
 
                             </div>
                         }

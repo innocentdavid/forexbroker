@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import man from '../images/man1.JPG'
+import man from '../images/man23.jpg'
 import pics from '../images/man2.JPG'
 import John from '../images/man3.JPG'
 import fast from '../images/lady1.JPG'
@@ -46,7 +46,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={pics} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={pics} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
                             <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Peter Crawford</a>
                             <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Peter Crawford has 20 years of trading experience with over 2,500 trades placed during that time.</p>
@@ -70,7 +70,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={John} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={John} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
                             <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Paul Adam</a>
                             <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Paul Adam is the Senior Editor of iLiveforex.com. An experienced media professional, Paul has close to a decade of editorial experience with a background that includes key leadership roles at global finance outlets.</p>
@@ -94,7 +94,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={fast} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={fast} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
                             <a href='/' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Alex Hope</a>
                             <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Alex Hope is the Content Strategist and Research Analyst for iLiveforex.com. An industry expert, Alex obtains and verifies data, conducts research, and analyzes and validates our content.</p>
