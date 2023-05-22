@@ -98,8 +98,8 @@ export default function Fques() {
                 <p className='md:text-[20px] text-[18px] md:px-5 px-3 md:my-4 my-2'>Here are the top 10 brokers by forex and CFD trading volume according to data compiled by Finance Magnates during the fourth quarter of 2022 (data excludes Japan due to the abnormally high trading volumes known to come from Japanese brokers):</p>
 
                 <ul className='list-disc md:text-[23px] text-[20px] md:mx-[60px] mx-[25px] md:px-4 px-2 my-4'>
-                    <li className='md:p-1 text-blue-800 text-[23px]'>FXTM</li>
-                    <li className='md:p-1 text-blue-800 text-[23px]'>XM</li>
+                    <li className='md:p-1 text-blue-800 text-[23px]'><a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className=''>FXTM</a></li>
+                    <li className='md:p-1 text-blue-800 text-[23px]'><a href="https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1" className="">XM</a></li>
                     <li className='md:p-1 text-blue-800 text-[23px]'>OctaFX</li>
                     <li className='md:p-1 text-blue-800 text-[23px]'>Exness</li>
                     <li className='md:p-1 text-blue-800 text-[23px]'>HF Markets</li>
