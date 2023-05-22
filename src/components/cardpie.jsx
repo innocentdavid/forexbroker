@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import Big from '../images/ig-group.jpg'
 import star from '../images/5.svg'
-import disc from '../images/Logo Forex Brokers_204x70.png'
-import IKR from '../images/IBKR Logo.png'
+// import Big from '../images/ig-group.jpg'
+// import disc from '../images/Logo Forex Brokers_204x70.png'
+// import IKR from '../images/IBKR Logo.png'
 
 
 
@@ -33,7 +33,7 @@ export default function Card1() {
             <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
 
                 <div className='flex  justify-between mt-4 mx-2 gap-3'>
-                    <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className=''>
+                    <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='' rel="noreferrer">
                         <img src={`/images/broker_logos/fxtm-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     </a>
                     <div className='mt-2'>
@@ -88,7 +88,7 @@ export default function Card1() {
                                     <span className='text-[15px]'>CySEC, FCA, FSCA, IFSC</span>
                                 </div>
 
-                                <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className=''>
+                                <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='' rel="noreferrer">
                                     <button className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site</button>
                                 </a>
                                 <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
@@ -98,7 +98,7 @@ export default function Card1() {
 
                             <div>
                                 <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>FXTM offers is regulated and trusted across the globe, zero spreads with their Advantage accounts, commission-free stock trading across a wealth of baskets and lightning-fast execution. Free indsutry leading education and expert analysis. <a href='/' className='text-blue-500'>Read full review</a></p>
-                                <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
+                                <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300' rel="noreferrer">Visit Site </a>
                                 <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                             </div>
 
@@ -123,7 +123,7 @@ export default function Card1() {
 
                                     </ul>
 
-                                    <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site </a>
+                                    <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300' rel="noreferrer">Visit Site </a>
                                     <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
 

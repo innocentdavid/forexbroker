@@ -2,9 +2,9 @@
 
 
 import React, { useState } from 'react';
-import Big from '../images/City Index Logo_2022.png'
+// import Big from '../images/City Index Logo_2022.png'
+// import disc from '../images/xtb.png'
 import star from '../images/5.svg'
-import disc from '../images/xtb.png'
 import IKR from '../images/forex.com logo.jpg'
 // import IKR from '../images/etoro.png'
 

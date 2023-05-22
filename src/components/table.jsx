@@ -22,7 +22,7 @@ export default function Showtable() {
                 mt: five,
             },
             ts: 99,
-            link: 'https://ad.doubleclick.net/ddm/clk/520672600:328393005:w',
+            link: 'https://ad.doubleclick.net/ddm/clk/520672600;328393005;w',
         },
         {
             id: 2,
@@ -162,8 +162,6 @@ export default function Showtable() {
 
                 <button onClick={() => scrollTable(100)} className='w-[40px] flex justify-center items-center  h-[40px] border rounded-full bg-slate-700 text-white' ><FaChevronRight /></button>
             </div>
-
-
 
             <div className='flex pb-4 border border-slate-300'>
 
