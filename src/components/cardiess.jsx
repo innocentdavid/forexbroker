@@ -31,7 +31,7 @@ export default function Card3() {
     return (
 
 
-        <div className='flex gap-7 md:mt-[20px] flex-col lg:flex-row  justify-between md:px-3'>
+        <div className='flex gap-7 md:mt-[20px] mt-7 flex-col lg:flex-row  justify-between md:px-3'>
 
             <div className='border rounded-[30px] shadow-lg md:w-[50%] md:mx-auto lg:w-[33%] w-full bg-white'>
 

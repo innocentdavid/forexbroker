@@ -135,63 +135,63 @@ export default function Fques() {
                     <ul className='md:text-[23px] text-[20px] md:mx-[60px] mx-[10px] md:px-4 px-2 my-4'>
 
                         <li className='md:p-1 text-[23px]'>
-                            <div className='flex gap-5 align-center mx-5'>
+                            <div className='flex gap-5 align-center md:mt-0 mt-2 md:mx-5 mx-2'>
 
-                                <FaBook className='text-[40px] min-w-[20px] max-w-[20px]' />
+                                <FaBook className='md:text-[40px] text-[20px] min-w-[20px]  max-w-[13px]' />
                                 <p className='md:text-[20px] text-[18px] px-2 '>Great for beginners - FXTM’s vast selection of educational materials (it even has a mobile app dedicated to trader education, called FXTM Academy) makes it our top choice for beginner traders. Check out our full guide on the <a href='/' className='text-blue-800'> best forex brokers for beginners here.</a></p>
 
                             </div>
                         </li>
 
                         <li className='md:p-1 text-[23px]'>
-                            <div className='flex gap-5 align-center mx-5'>
+                            <div className='flex gap-5 align-center md:mt-0 mt-2 md:mx-5 mx-2'>
 
-                                <FaBook className='text-[40px] min-w-[20px] max-w-[20px]' />
+                                <FaBook className='md:text-[40px] text-[20px] min-w-[20px]  max-w-[13px]' />
                                 <p className='md:text-[20px] text-[18px] px-2 '>  Excellent trading app - XM’s Trading Point mobile app boasts an impressive, intelligent design, paired with an abundance of useful information that makes it easy for traders to make clear-headed decisions, making it our top trading app. Check out our full guide to the best forex trading apps here. <a href='/' className='text-blue-800'>  guide to the best forex trading apps here.</a></p>
 
                             </div>
                         </li>
 
                         <li className='md:p-1 text-[23px]'>
-                            <div className='flex gap-5 align-center mx-5'>
+                            <div className='flex gap-5 align-center md:mt-0 mt-2 md:mx-5 mx-2'>
 
-                                <FaBook className='text-[40px] min-w-[20px] max-w-[20px]' />
+                                <FaBook className='md:text-[40px] text-[20px] min-w-[20px]  max-w-[13px]' />
                                 <p className='md:text-[20px] text-[18px] px-2 '> Social copy trading - Interested in following the trades of expert forex traders? eToro deftly merges self-directed trading and copy trading into a sleek, unified trading experience. Copy traders can read our full  <a href='/' className='text-blue-800'>  social copy trading guide here.</a></p>
 
                             </div>
                         </li>
 
                         <li className='md:p-1 text-[23px]'>
-                            <div className='flex gap-5 align-center mx-5'>
+                            <div className='flex gap-5 align-center md:mt-0 mt-2 md:mx-5 mx-2'>
 
-                                <FaBook className='text-[40px] min-w-[20px] max-w-[20px]' />
+                                <FaBook className='md:text-[40px] text-[20px] min-w-[20px]  max-w-[13px]' />
                                 <p className='md:text-[20px] text-[18px] px-2 '> Low costs - Of Exness' five accounts (Standard, Cent, Pro, Zero and Raw Spread), it was the competitive commission-based pricing for professionals available through its Pro, Zero and Raw Spreads accounts that helped Exness finish 1st overall for Commissions and Fees. Take a look at our full guide dedicated to  <a href='/' className='text-blue-800'>  low-cost and zero spread brokers here.</a></p>
 
                             </div>
                         </li>
 
                         <li className='md:p-1 text-[23px]'>
-                            <div className='flex gap-5 align-center mx-5'>
+                            <div className='flex gap-5 align-center md:mt-0 mt-2 md:mx-5 mx-2'>
 
-                                <FaBook className='text-[40px] min-w-[20px] max-w-[20px]' />
+                                <FaBook className='md:text-[40px] text-[20px] min-w-[20px]  max-w-[13px]' />
                                 <p className='md:text-[20px] text-[18px] px-2 '>   MetaTrader - Forex.com’s MetaTrader offering includes an impressive range of third-party research and trading tool plugins, which helped Forex.com Markets earn our pick for the best MetaTrader broker. Read our full MetaTrader guide, and learn more about the newest version of MetaTrader with our guide to the <a href='/' className='text-blue-800'> Best MetaTrader 5 Brokers. </a></p>
 
                             </div>
                         </li>
 
                         <li className='md:p-1 text-[23px]'>
-                            <div className='flex gap-5 align-center mx-5'>
+                            <div className='flex gap-5 align-center md:mt-0 mt-2 md:mx-5 mx-2'>
 
-                                <FaBitcoin className='text-[40px] min-w-[20px] max-w-[20px]' />
+                                <FaBitcoin className='md:text-[40px] text-[20px] min-w-[20px] max-w-[13px]' />
                                 <p className='md:text-[20px] text-[18px] px-2 '>    Crypto trading - eToro’s easy-to-use copy trading platform and its large number of available crypto assets made eToro our top pick for both crypto and copy trading for our 2023 Annual Awards. Check out our guide that covers <a href='/' className='text-blue-800'> crypto trading and the best bitcoin brokers here. </a></p>
 
                             </div>
                         </li>
 
                         <li className='md:p-1 text-[23px]'>
-                            <div className='flex gap-5 align-center mx-5'>
+                            <div className='flex gap-5 align-center md:mt-0 mt-2 md:mx-5 mx-2'>
 
-                                <FaBitcoin className='text-[40px] min-w-[20px] max-w-[20px]' />
+                                <FaBitcoin className='md:text-[40px] text-[20px] min-w-[20px]  max-w-[13px]' />
                                 <p className='md:text-[20px] text-[18px] px-2 '>laptop_mac  Mac Compatible Brokers - FXCM - Streamlined designs and robust trading tools make FXCM’s desktop platform, a winner. Mac users should take a look at our guide to the <a href='/' className='text-blue-800'> best forex trading platforms for Mac devices.  </a></p>
 
                             </div>
