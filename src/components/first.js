@@ -7,16 +7,16 @@ import pics from '../images/fxtm_large.jfif'
 export default function First() {
 
     return (
-        <div className='lg:max-w-[1000px] md:w-full md:mx-[12px] lg:mx-[160px]'>
+        <div className='lg:max-w-[1000px] md:w-full md:mx-[12px] lg:mx-[30px] xl:mx-[160px]'>
             <h1 className='md:text-[45px] text-[33px] md:px-0 px-3 leading-[40px] font-semi-bold'>Best Forex Brokers for 2023</h1>
 
             <div className='flex flex-col md:flex-row gap-4'>
 
                 <div className='flex flex-col md:flex-row mt-5 md:mt-0 justify-between gap-7  w-full' >
 
-                    <div className='flex justify-between md:gap-3 md:my-3 gap-1'>
+                    <div className='flex md:justify-between md:gap-4 md:my-3 gap-1'>
                         <img className='w-[70px] h-[70px] rounded-[50%] m-3' src={man} alt='man' />
-                        <div className='my-3'>
+                        <div className='  my-3'>
                             <h3 className='md:text-[14px] text-[13px] '>Written by <a href='/' className='text-blue'>Norman West, Ryan Cole</a> </h3>
                             <h3 className='md:text-[14px] text-[13px]'> <a href='/' className='text-blue '>Edited by Peter Crawford</a></h3>
                             <h3 className='md:text-[14px] text-[13px]'> <a href='/' className='text-blue'>Fact-checked by Teo Romero</a></h3>
