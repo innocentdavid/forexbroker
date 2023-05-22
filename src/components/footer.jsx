@@ -53,18 +53,18 @@ export default function Footer() {
 
           </div>
 
-          <p className='md:text-[15px] text-white text-[12px] md:px-5  md:my-4 my-2'>© 2023 iLiveforex.com. All rights reserved. Terms of Use | Disclaimers | Privacy Policy</p>
+          <p className='md:text-[15px] text-white text-[12px] md:px-5  md:my-4 my-2'>© 2023 iliveForex.com. All rights reserved. Terms of Use | Disclaimers | Privacy Policy</p>
 
-          <p className='md:text-[15px] text-white text-[12px] md:px-5 md:my-4 my-2'>Advertiser Disclosure: iLiveforex.com helps investors across the globe by testing and researching online forex brokers. How do we make money? Our partners compensate us through paid advertising. While partners may pay to provide offers or be featured, e.g. exclusive offers, they cannot pay to alter our recommendations, advice, ratings, or any other content throughout the site. Furthermore, our content and research teams do not participate in any advertising planning nor are they permitted access to advertising campaign data. Here's how we make money:.</p>
+          <p className='md:text-[15px] text-white text-[12px] md:px-5 md:my-4 my-2'>Advertiser Disclosure: iliveForex.com helps investors across the globe by testing and researching online forex brokers. How do we make money? Our partners compensate us through paid advertising. While partners may pay to provide offers or be featured, e.g. exclusive offers, they cannot pay to alter our recommendations, advice, ratings, or any other content throughout the site. Furthermore, our content and research teams do not participate in any advertising planning nor are they permitted access to advertising campaign data. Here's how we make money:.</p>
 
-          <p className='md:text-[15px]  text-white text-[12px] md:px-5 md:my-4 my-2'>Disclaimer: It is our organisation's primary mission to provide reviews, commentary, and analysis that are unbiased and objective. While iLiveforex.com has some data verified by industry participants, it can vary from time to time. Operating as an online business, this site may be compensated through third party advertisers. Our receipt of such compensation shall not be construed as an endorsement or recommendation by iLiveforex.com, nor shall it bias our reviews, analysis, and opinions. Please see our General Disclaimers for more information.</p>
+          <p className='md:text-[15px]  text-white text-[12px] md:px-5 md:my-4 my-2'>Disclaimer: It is our organisation's primary mission to provide reviews, commentary, and analysis that are unbiased and objective. While iliveForex.com has some data verified by industry participants, it can vary from time to time. Operating as an online business, this site may be compensated through third party advertisers. Our receipt of such compensation shall not be construed as an endorsement or recommendation by iliveForex.com, nor shall it bias our reviews, analysis, and opinions. Please see our General Disclaimers for more information.</p>
 
           <div className='flex gap-6 px-3 md:my-[50px] my-[30px]'>
             <img src={logo1} className='md:w-[60px] w-[50px]' alt='meeww' ></img>
             <img src={logo2} className='md:w-[60px] w-[50px]' alt='meeww' ></img>
           </div>
 
-          <p className='md:text-[15px] text-white text-[12px] md:px-5  md:my-4 my-2'>© 2023 iLiveforex.com. All Rights Reserved.</p>
+          <p className='md:text-[15px] text-white text-[12px] md:px-5  md:my-4 my-2'>© 2023 iliveForex.com. All Rights Reserved.</p>
 
 
 

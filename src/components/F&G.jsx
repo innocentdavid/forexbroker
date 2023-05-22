@@ -47,7 +47,7 @@ export default function Fques() {
                             <h3 className='md:text-[20px] text-[15px] my-3 md:px-4 px-3 font-bold' >Find a trustworthy broker:</h3>
                         </div>
 
-                        <p className=''>iLiveforex.com Trust Score ranks forex brokers based on their reliability and overall trust. <a href='/' className='text-decoration-underline text-blue-500'>click here to learn more about Trust Score.</a></p>
+                        <p className=''>iliveForex.com Trust Score ranks forex brokers based on their reliability and overall trust. <a href='/' className='text-decoration-underline text-blue-500'>click here to learn more about Trust Score.</a></p>
                     </div>
                 </div>
 

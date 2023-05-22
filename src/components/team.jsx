@@ -23,10 +23,10 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px] w-full  gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={man} className='w-[18%] h-[18%] mx-2 rounded-full' alt='men'></img>
+                        <img src={man} className='w-[14%] h-[14%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
                             <a href='#' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Ryan Cole</a>
-                            <p className='md:text-[20px] text-[15px] md:px-5 px-3 my-2'>Ryan Cole is the Global Director of Research for iLiveforex.com. Norman has authored thousands of articles about the finance industry. A forex industry expert and an active fintech and crypto researcher.</p>
+                            <p className='md:text-[20px] text-[15px] md:px-5 px-3 my-2'>Ryan Cole is the Global Director of Research for iliveForex.com. Norman has authored thousands of articles about the finance industry. A forex industry expert and an active fintech and crypto researcher.</p>
                         </div>
                     </div>
 
@@ -35,11 +35,11 @@ export default function Team() {
                             <img src={man} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
                             <div>
                                 <a href='#' className='text-blue-500  text-[18px]  px-1 my-2'>Norman West</a>
-                                <p className=' text-[15px]  ma-1'>Norman West is is the Global Director of Research for iLiveforex.com  </p>
+                                <p className=' text-[15px]  ma-1'>Norman West is is the Global Director of Research for iliveForex.com  </p>
                             </div>
                         </div>
                         <div className='' >
-                            <p className='mx-2 text-[15px] md:px-5  '>iLiveforex.com. Norman has authored over 1,000 published articles about the online finance industry. A forex industry expert and an active fintech and crypto researcher.</p>
+                            <p className='mx-2 text-[15px] md:px-5  '>iliveForex.com. Norman has authored over 1,000 published articles about the online finance industry. A forex industry expert and an active fintech and crypto researcher.</p>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={pics} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={pics} className='w-[14%] h-[14%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
                             <a href='#' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Peter Crawford</a>
                             <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Peter Crawford has 20 years of trading experience with over 2,500 trades placed during that time.</p>
@@ -71,10 +71,10 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={John} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={John} className='w-[14%] h-[14%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
                             <a href='#' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Paul Adam</a>
-                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Paul Adam is the Senior Editor of iLiveforex.com. An experienced media professional, Paul has close to a decade of editorial experience with a background that includes key leadership roles at global finance outlets.</p>
+                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Paul Adam is the Senior Editor of iliveForex.com. An experienced media professional, Paul has close to a decade of editorial experience with a background that includes key leadership roles at global finance outlets.</p>
                         </div>
                     </div>
 
@@ -83,7 +83,7 @@ export default function Team() {
                             <img src={John} className='w-[25%] h-[25%] mx-2 rounded-full' alt='men'></img>
                             <div>
                                 <a href='#' className='text-blue-500  text-[18px]  px-1 my-2'>Joey Smith</a>
-                                <p className=' text-[15px]  ma-1'> Joey Smith is the Senior Editor of iLiveforex.com </p>
+                                <p className=' text-[15px]  ma-1'> Joey Smith is the Senior Editor of iliveForex.com </p>
                             </div>
                         </div>
                         <div className='' >
@@ -95,10 +95,10 @@ export default function Team() {
 
                 <div className='md:max-w-[1000px]  w-full gap-5 md:mx-auto mt-8'>
                     <div className='hidden md:flex-row md:flex'>
-                        <img src={fast} className='w-[20%] h-[20%] mx-2 rounded-full' alt='men'></img>
+                        <img src={fast} className='w-[14%] h-[14%] mx-2 rounded-full' alt='men'></img>
                         <div className='' >
                             <a href='#' className='text-blue-500 md:text-[20px] text-[18px] md:px-5 px-3 md:my-1 my-2'>Alex Hope</a>
-                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Alex Hope is the Content Strategist and Research Analyst for iLiveforex.com. An industry expert, Alex obtains and verifies data, conducts research, and analyzes and validates our content.</p>
+                            <p className='md:text-[20px] text-[18px] md:px-5 px-3 my-2'>Alex Hope is the Content Strategist and Research Analyst for iliveForex.com. An industry expert, Alex obtains and verifies data, conducts research, and analyzes and validates our content.</p>
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@ export default function Team() {
                             </div>
                         </div>
                         <div className='' >
-                            <p className='mx-2 text-[15px] md:px-5  '>Analyst for iLiveforex.com. Alexa obtains and verifies data, conducts research, and analyzes and validates our content.</p>
+                            <p className='mx-2 text-[15px] md:px-5  '>Analyst for iliveForex.com. Alexa obtains and verifies data, conducts research, and analyzes and validates our content.</p>
                         </div>
                     </div>
 
