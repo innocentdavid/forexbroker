@@ -33,7 +33,9 @@ export default function Card1() {
             <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
 
                 <div className='flex  justify-between mt-4 mx-2 gap-3'>
-                    <img src={`/images/broker_logos/fxtm-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
+                    <a href='https://ad.doubleclick.net/ddm/clk/520672600:328393005:w' className=''>
+                        <img src={`/images/broker_logos/fxtm-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
+                    </a>
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
                         <h4 className='text-center'>5.0 overall</h4>
@@ -137,7 +139,9 @@ export default function Card1() {
             <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
 
                 <div className='flex justify-between mt-4 mx-2 gap-3'>
-                    <img src={`/images/broker_logos/xm-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
+                    <a href="https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1" className="">
+                        <img src={`/images/broker_logos/xm-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
+                    </a>
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
                         <h4 className='text-center'>5.0 overall</h4>
@@ -190,8 +194,8 @@ export default function Card1() {
                                     <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
                                     <span className='text-[15px]'>	ASIC, CySEC, IFSC</span>
                                 </div>
-                                
-                                
+
+
                                 <a href='https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1' className=''>
                                     <button className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site</button>
                                 </a>
