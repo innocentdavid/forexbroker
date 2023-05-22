@@ -54,9 +54,9 @@ export default function Header () {
 
 
             </div>
-            <h2 className='mx-[150px] mx-2 md:text-[14px] text-[12px] md:p-3 p-2' >iliveForex.com is committed to making independent forex broker reviews, which are carried out to the highest standards.</h2>
+            <h2 className='md:mx-[150px] mx-2 md:text-[14px] text-[12px] md:p-3 p-2' >iliveForex.com is committed to making independent forex broker reviews, which are carried out to the highest standards.</h2>
 
-            <div className='max-w-[500px] md:gap-1  md:mx-[20px] lg:mx-[160px] md:py-1 py-1 flex'>
+            <div className='max-w-[500px] md:gap-1  md:mx-[20px] xl:mx-[160px] md:py-1 py-1 flex'>
                 <div className='flex flex-row '>
                     <a href='/' className='  text-blue-400 text-md p-2 md:text-[20px] font-bold '>Home  <FaChevronRight className='float-right flex  mt-1 md:mt-2 mx-2' /> </a>
                 </div>
