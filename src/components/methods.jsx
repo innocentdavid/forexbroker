@@ -27,7 +27,7 @@ export default function Method() {
 
             <h1 className='md:text-[35px] text-[25px] md:px-4 px-3 font-semi-bold'>Methodology</h1>
 
-            <p className='md:text-[20px] text-[18px] md:px-5 px-3 md:my-4 my-2'>At iLiveforex.com, our evaluations of online brokers and their products and services are based on our collected quantitative data as well as the qualitative observations and qualified opinions of our expert researchers. Each year we evaluate dozens of international regulator agencies <a href='/' className='text-blue-800' >(click here to learn about how we calculate Trust Score).</a> </p>
+            <p className='md:text-[20px] text-[18px] md:px-5 px-3 md:my-4 my-2'>At iliveForex.com, our evaluations of online brokers and their products and services are based on our collected quantitative data as well as the qualitative observations and qualified opinions of our expert researchers. Each year we evaluate dozens of international regulator agencies <a href='/' className='text-blue-800' >(click here to learn about how we calculate Trust Score).</a> </p>
 
             <p className='md:text-[20px] text-[18px] md:px-5 px-3 md:my-4 my-2'>Our research team, led by <a href='/' className='text-blue-800' >Norman West,</a> conducts thorough testing on a range of features, including each broker’s individual products, services, and tools. We test all available trading platforms for each broker – whether they are proprietary or come from third-party providers – and evaluate them based on a host of data-driven variables.</p>
 

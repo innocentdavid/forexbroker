@@ -22,7 +22,7 @@ export default function Showtable() {
                 mt: five,
             },
             ts: 99,
-            link: '',
+            link: 'https://ad.doubleclick.net/ddm/clk/520672600;328393005;w',
         },
         {
             id: 2,
@@ -37,7 +37,7 @@ export default function Showtable() {
                 mt: five,
             },
             ts: 99,
-            link: '',
+            link: 'https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1',
         },
         {
             id: 3,
@@ -145,7 +145,7 @@ export default function Showtable() {
             link: '',
         },
     ]
-    
+
 
     const tableRef = useRef(null);
 
@@ -163,13 +163,15 @@ export default function Showtable() {
                 <button onClick={() => scrollTable(100)} className='w-[40px] flex justify-center items-center  h-[40px] border rounded-full bg-slate-700 text-white' ><FaChevronRight /></button>
             </div>
 
-
-
             <div className='flex pb-4 border border-slate-300'>
 
                 <div className='flex gap-[30px] mt-[120px] flex-col border-r px-4 border-slate-800 '>
                     {data.map(broker => {
-                        return (<img key={`logo_${data.id}`} src={broker.image} alt='' className='h-[80px] w-fit mx-auto rounded-[15px]' />)
+                        return (
+                            <a href={broker.link ?? '#'} key={`logo_${data.id}`}>
+                                <img src={broker.image} alt='' className='h-[80px] w-fit mx-auto rounded-[15px]' />
+                            </a>
+                        )
                     })}
 
                 </div>
@@ -256,7 +258,7 @@ export default function Showtable() {
                             </div>
                         </div>
                     </table>
-                    
+
                 </div>
 
             </div>
