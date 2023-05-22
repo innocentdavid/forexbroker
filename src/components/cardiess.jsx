@@ -31,9 +31,9 @@ export default function Card3() {
     return (
 
 
-        <div className='flex gap-7 mt-7 flex-col md:flex-row justify-between md:px-3'>
+        <div className='flex gap-7 md:mt-[20px] flex-col lg:flex-row  justify-between md:px-3'>
 
-            <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
+            <div className='border rounded-[30px] shadow-lg md:w-[50%] md:mx-auto lg:w-[33%] w-full bg-white'>
 
                 <div className='flex  justify-between mt-4 mx-2 gap-3'>
                     <img src={IKR} className='md:w-[200px] w-[150px] p-2' alt='nextimg' />
@@ -130,7 +130,7 @@ export default function Card3() {
 
             </div>
 
-            <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
+            <div className='border rounded-[30px] shadow-lg md:w-[50%] md:mx-auto lg:w-[33%] w-full bg-white'>
 
                 <div className='flex justify-between mt-4 mx-2 gap-3'>
                     <img src={`/images/broker_logos/oanda-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
@@ -222,7 +222,7 @@ export default function Card3() {
 
             </div>
 
-            <div className='border rounded-[30px]  shadow-lg md:w-[33%] w-full bg-white'>
+            <div className='border rounded-[30px] shadow-lg md:w-[50%] md:mx-auto lg:w-[33%] w-full bg-white'>
 
                 <div className='flex justify-between mt-4 mx-2 gap-3'>
                     <img src={`/images/broker_logos/fbs.svg`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />

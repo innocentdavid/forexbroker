@@ -28,9 +28,9 @@ export default function Card1() {
     return (
 
 
-        <div className='flex gap-7 flex-col md:flex-row justify-between md:px-3'>
+        <div className='flex gap-7 flex-col lg:flex-row  justify-between md:px-3'>
 
-            <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
+            <div className='border rounded-[30px] shadow-lg md:w-[50%] md:mx-auto lg:w-[33%] w-full bg-white'>
 
                 <div className='flex  justify-between mt-4 mx-2 gap-3'>
                     <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='' rel="noreferrer">
@@ -98,8 +98,10 @@ export default function Card1() {
 
                             <div>
                                 <p className='p-4 mb-[100px] text-[16px] md:text-[18px] h-[200px]'>FXTM offers is regulated and trusted across the globe, zero spreads with their Advantage accounts, commission-free stock trading across a wealth of baskets and lightning-fast execution. Free indsutry leading education and expert analysis. <a href='/' className='text-blue-500'>Read full review</a></p>
-                                <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300' rel="noreferrer">Visit Site </a>
-                                <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='' rel="noreferrer">
+                                    <button className='text-[20px] p-2 mt-[3px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site</button>
+                                </a>
+                                <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
                             </div>
 
                         
@@ -125,8 +127,10 @@ export default function Card1() {
 
                                     </ul>
 
-                                    <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='text-[20px] p-2 mt-[20px] w-[80%] mx-8 rounded-lg bg-gray-300' rel="noreferrer">Visit Site </a>
-                                    <p className='max-w-[250px] mx-[20px] md:p-3 md:mb-[30px] py-[10px] text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
+                                    <a target="_blank" href='https://ad.doubleclick.net/ddm/clk/520672600;328393005;w' className='' rel="noreferrer">
+                                    <button className='text-[20px] p-2 mt-[40px] w-[80%] mx-8 rounded-lg bg-gray-300'>Visit Site</button>
+                                </a>
+                                <p className='max-w-[250px] mx-[20px] p-3 text-[10px]'>no minimum deposit(64% of retail CFD accounts lose money)</p>
 
 
                                 </div>
@@ -138,7 +142,7 @@ export default function Card1() {
 
             </div>
 
-            <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
+            <div className='border rounded-[30px] shadow-lg md:w-[50%] md:mx-auto lg:w-[33%] w-full bg-white'>
 
                 <div className='flex justify-between mt-4 mx-2 gap-3'>
                     <a href="https://clicks.pipaffiliates.com/c?c=632795&1=en&p=1" className="">
@@ -249,7 +253,7 @@ export default function Card1() {
 
             </div>
 
-            <div className='border rounded-[30px] shadow-lg md:w-[33%] w-full bg-white'>
+            <div className='border rounded-[30px] shadow-lg md:w-[50%] md:mx-auto lg:w-[33%] w-full bg-white'>
 
                 <div className='flex justify-between mt-4 mx-2 gap-3'>
                     <img src={`/images/broker_logos/octafx-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />

@@ -7,7 +7,7 @@ import pics from '../images/fxtm_large.jfif'
 export default function First() {
 
     return (
-        <div className='max-w-[1000px] md:mx-[160px]'>
+        <div className='lg:max-w-[1000px] md:w-full md:mx-[12px] lg:mx-[160px]'>
             <h1 className='md:text-[45px] text-[33px] md:px-0 px-3 leading-[40px] font-semi-bold'>Best Forex Brokers for 2023</h1>
 
             <div className='flex flex-col md:flex-row gap-4'>

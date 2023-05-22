@@ -26,12 +26,12 @@ export default function Footer() {
 
           <div className='flex md:flex-row flex-col justify-between w-full'>
 
-            <div className='p-4'>
-              <img src={'./logo.png'} className='md:w-[90%] w-[50%]' alt='mmmee' ></img>
+            <div className='p-4 md:w-[40%] '>
+              <img src={'./logo.png'} className='lg:w-[90%] w-[50%]' alt='mmmee' ></img>
             </div>
 
-            <div className='w-full'>
-              <ul className='text-white text-[17px] flex-col md:flex-row justify-center my-5 flex gap-7'>
+            <div className=''>
+              <ul className='text-white md:text-[14px] text-[17px] flex-col md:flex-row justify-center my-5 flex gap-7'>
                 <li>ABOUT</li>
                 <li>WHY TRUST US</li>
                 <li>HOW WE TEST</li>
