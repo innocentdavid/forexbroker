@@ -168,8 +168,8 @@ export default function Showtable() {
                 <div className='flex gap-[30px] mt-[120px] flex-col border-r px-4 border-slate-800 '>
                     {data.map(broker => {
                         return (
-                            <a href={broker.link ?? '#'} key={`logo_${data.id}`}>
-                                <img src={broker.image} alt='' className='h-[80px] w-fit mx-auto rounded-[15px]' />
+                            <a href={broker.link ?? '#'} key={`logo_${data.id}`} className='h-[80px] flex items-center'>
+                                <img src={broker.image} alt='' className='h-fit md:h-[80px] w-[220px] md:w-fit mx-auto rounded-[15px]' />
                             </a>
                         )
                     })}
