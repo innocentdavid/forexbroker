@@ -9,22 +9,31 @@ import Showtable from './components/table'
 import Method from './components/methods'
 import Team from './components/team'
 import Footer from './components/footer'
+import Pop from './components/popup'
+import { LanguageProvider } from "./components/langprov";
 
 
 function App() {
   return (
-    <div className='overflow-hidden'>
+
+
+    <LanguageProvider defaultLanguage="en">
+
+      <div className='overflow-hidden relative'>
     
-      <Header/>
-      <First/>
-      <Card/>
-      <Award/>
-      <Fques/>
-      <Showtable/>
-      <Method/>
-      <Team/>
-      <Footer/>
-    </div>
+        <Header/>
+        <First/>
+        <Card/>
+        <Award/>
+        <Fques/>
+        <Showtable/>
+        <Method/>
+        <Team/>
+        <Pop/>
+        <Footer/>
+      </div>
+      
+    </LanguageProvider>
   );
 }
 
