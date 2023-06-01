@@ -9,7 +9,7 @@ const Popup = ({ onClose }) => {
         <div className='popup relative p-7  mt-[40px] bg-[#f5fafc] gap-2 flex justify-center flex-col shadow-lg md:p-[40px]  border border-slate-600 md:text-[20px] text-[16px] mx-auto  m-5 rounded-lg' >
         <h2 className= ' text-[17px] md:text-[30px] text-center'>Subscribe to our newsletter</h2>
         <form action="" method='' className='flex md:flex-row flex-col gap-2 justify-center'>
-          <input type="text" className='md:w-[40%] md:p-0 py-2 bg-transparent outline-none rounded-lg placeholder:text-[20px] placeholder:px-3 border border-slate-400' placeholder='Enter your email' />
+          <input type="text" className='md:w-[40%] md:p-0 py-2 bg-transparent outline-none rounded-lg placeholder:text-[20px] placeholder:px-3 border border-slate-400 ' placeholder='Enter your email' />
           <input type="submit" className='md:px-4 px-2 py-1  bg-[#231f20] mt-4 md:mt-0 text-white outline-none rounded-lg  border border-slate-400' value='subscribe' />
         </form>
         <FaTimes onClick={onClose}  className='text-[20px] absolute top-2 md:top-[20px] right-3 md:right-[20px]'/>

@@ -2,6 +2,8 @@
 
 
 import React, { useState } from 'react';
+import i18next from 'i18next';
+import { useTranslation } from "react-i18next";
 import Big from '../images/cmc-markets.png'
 import star from '../images/5.svg'
 import disc from '../images/td-ameritrade.png'
@@ -26,6 +28,7 @@ export default function Card2() {
     const handleTabClicked = (tab) => {
         setnativedTab(tab);
     };
+    const { t } = useTranslation();
 
     return (
 
@@ -39,7 +42,7 @@ export default function Card2() {
                     <img src={`/images/broker_logos/exness-review.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
-                        <h4 className='text-center'>5.0 overall</h4>
+                        <h4 className='text-center'>5.0 {i18next.t("overall")}</h4>
                     </div>
 
                 </div>
@@ -51,21 +54,21 @@ export default function Card2() {
                             className={`tab ${activesTab === 'summary' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClick('summary')}
                         >
-                            Summary
+                            {i18next.t("Summary")}
                         </div>
 
                         <div
                             className={`tab ${activesTab === 'review' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClick('review')}
                         >
-                            Review
+                            {i18next.t("Review")}
                         </div>
 
                         <div
                             className={`tab ${activesTab === 'overlook' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClick('overlook')}
                         >
-                            Pros/Cons
+                            {i18next.t("Prons/Cons")}
                         </div>
 
                     </div>
@@ -75,17 +78,17 @@ export default function Card2() {
                                 <h3 className='mx-5 text-[15px]'>Best for customer support</h3>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Minimum Deposit</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Minimum Deposit")}</h4>
                                     <span className='text-[15px]'>$1</span>
                                 </div>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Trust Score</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Trust Score")}</h4>
                                     <span className='text-[15px]'>99</span>
                                 </div>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Regulation")}</h4>
                                     <span className='text-[15px]'>	CySEC, FCA, SFSA</span>
                                 </div>
                                 
@@ -99,14 +102,14 @@ export default function Card2() {
                             <div className='mb-[100px] my-4 mx-6  h-[200px]'>
 
                                 <div>
-                                    <h3 className='text-[15px] md:text-[20px] '>Pros</h3>
+                                    <h3 className='text-[15px] md:text-[20px] '>{i18next.t("Pros")}</h3>
                                     <ul className='list-disc text-[14px] mx-[20px] py-2'>
                                         <li>Tight spreads</li>
                                         <li>Dealing desk broker</li>
                                         <li>Funds stored in segregated accounts</li>
 
                                     </ul>
-                                    <h3 className='text-[15px] md:text-[20px]  '>Cons</h3>
+                                    <h3 className='text-[15px] md:text-[20px]  '>{i18next.t("Cons")}</h3>
                                     <ul className='list-disc text-[14px] mx-[20px] py-2' >
                                         <li>Multi-currency accounts missing</li>
                                     </ul>
@@ -125,7 +128,7 @@ export default function Card2() {
                     <img src={`/images/broker_logos/hfm_logo.png`} className='w-fit h-[80px] rounded-[15px] p-2' alt='nextimg' />
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
-                        <h4 className='text-center'>5.0 overall</h4>
+                        <h4 className='text-center'>5.0 {i18next.t("overall")}</h4>
                     </div>
 
                 </div>
@@ -137,21 +140,21 @@ export default function Card2() {
                             className={`tab ${nativeTab === 'summary' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClicks('summary')}
                         >
-                            Summary
+                           {i18next.t("Summary")}
                         </div>
 
                         <div
                             className={`tab ${nativeTab === 'review' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClicks('review')}
                         >
-                            Review
+                            {i18next.t("Review")}
                         </div>
 
                         <div
                             className={`tab ${nativeTab === 'overlook' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClicks('overlook')}
                         >
-                            Pros/Cons
+                            {i18next.t("Prons/Cons")}
                         </div>
 
                     </div>
@@ -162,17 +165,17 @@ export default function Card2() {
                                 <h3 className='mx-5 text-[15px]'>Best for automation</h3>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Minimum Deposit</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Minimum Deposit")}</h4>
                                     <span className='text-[15px]'>$100</span>
                                 </div>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Trust Score</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Trust Score")}</h4>
                                     <span className='text-[15px]'>99</span>
                                 </div>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Regulation")}</h4>
                                     <span className='text-[15px]'>CySec, FCA, DFSA, FSCA</span>
                                 </div>
 
@@ -190,14 +193,14 @@ export default function Card2() {
                             <div className='mb-[150px] my-4 mx-6  h-[200px]'>
 
                                 <div>
-                                    <h3 className='text-[15px] md:text-[20px] '>Pros</h3>
+                                    <h3 className='text-[15px] md:text-[20px] '>{i18next.t("Pros")}</h3>
                                     <ul className='list-disc text-[14px] mx-[20px] py-2'>
                                         <li>Regulated by FCA</li>
                                         <li>Low fees</li>
                                         <li>Founded 2010</li>
 
                                     </ul>
-                                    <h3 className='text-[15px] md:text-[20px]  '>Cons</h3>
+                                    <h3 className='text-[15px] md:text-[20px]  '>{i18next.t("Cons")}</h3>
                                     <ul className='list-disc text-[14px] mx-[20px] py-2' >
                                         <li>International offering done offshore</li>
                                     </ul>
@@ -218,7 +221,7 @@ export default function Card2() {
                     <img src={`/images/broker_logos/fxcm_logo.svg`} className='md:w-[150px] w-[150px] h-[80px] p-2' alt='nextimg' />
                     <div className='mt-2'>
                         <img src={star} className='w-[100px] mx-5 my-2' alt='netimg' />
-                        <h4 className='text-center'>5.0 overall</h4>
+                        <h4 className='text-center'>5.0 {i18next.t("overall")}</h4>
                     </div>
                 </div>
 
@@ -230,21 +233,21 @@ export default function Card2() {
                             className={`tab ${nativedTab === 'summary' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClicked('summary')}
                         >
-                            Summary
+                            {i18next.t("Summary")}
                         </div>
 
                         <div
                             className={`tab ${nativedTab === 'review' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClicked('review')}
                         >
-                            Review
+                            {i18next.t("Review")}
                         </div>
 
                         <div
                             className={`tab ${nativedTab === 'overlook' ? 'active border-b border-black' : ' hover:border-b border-black text-[18px] mx-2'}`}
                             onClick={() => handleTabClicked('overlook')}
                         >
-                            Pros/Cons
+                            {i18next.t("Prons/Cons")}
                         </div>
 
                     </div>
@@ -255,17 +258,17 @@ export default function Card2() {
                                 <h3 className='mx-5 text-[15px]'>Great for tradingview integration</h3>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Minimum Deposit</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Minimum Deposit")}</h4>
                                     <span className='text-[15px]'>$50</span>
                                 </div>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Trust Score</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Trust Score")}</h4>
                                     <span className='text-[15px]'>99</span>
                                 </div>
 
                                 <div className='flex justify-between mt-3 max-w-[240px] mx-4 '>
-                                    <h4 className='text-[13px] font-bold mt-1'>Regulation</h4>
+                                    <h4 className='text-[13px] font-bold mt-1'>{i18next.t("Regulation")}</h4>
                                     <span className='text-[15px]'>FCA, CySEC, ASIC, FSCA</span>
                                 </div>
 
@@ -278,14 +281,14 @@ export default function Card2() {
                             <div className='mb-[100px] my-4 mx-6  h-[200px]'>
 
                                 <div>
-                                    <h3 className='text-[15px] md:text-[20px] '>Pros</h3>
+                                    <h3 className='text-[15px] md:text-[20px] '>{i18next.t("Pros")}</h3>
                                     <ul className='list-disc text-[14px] mx-[20px] py-2'>
                                         <li>Founded in 1999</li>
                                         <li>Excellent market research</li>
                                         <li>Wide range of markets</li>
 
                                     </ul>
-                                    <h3 className='text-[15px] md:text-[20px]  '>Cons</h3>
+                                    <h3 className='text-[15px] md:text-[20px]  '>{i18next.t("Cons")}</h3>
                                     <ul className='list-disc text-[14px] mx-[20px] py-2' >
                                         <li>Spreads for Forex and CFDs slightly high</li>
 

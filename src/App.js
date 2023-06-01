@@ -29,7 +29,7 @@ function App() {
         <Showtable/>
         <Method/>
         <Team/>
-        <Pop/>
+        {/* <Pop/> */}
         <Footer/>
       </div>
       
